@@ -92,7 +92,7 @@ app.post("/api/v1/customers", async (req, res) => {
   const query = `INSERT INTO Customers (customer_id, name) VALUES ('${customer_id}', '${name}')`;
 
   await db.run(query);
-  res.send("Customer Created successfully");
+  res.send({ customer_id, name });
 });
 
 //This is creating a loan(2.1)
