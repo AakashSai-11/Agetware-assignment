@@ -51,7 +51,7 @@ const intialiseServerAndDb = async () => {
         );
     `);
     app.listen(3000, () => {
-      console.log("Server is running at https://localhost:3000/");
+      console.log("Server is running at http://localhost:3000/");
     });
   } catch (e) {
     console.log(`${e.message}`);
