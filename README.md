@@ -14,7 +14,7 @@ This repository contains Node.js-based loan lending bank system and some data st
   Logic to merge overlapping position-based value arrays.
 
 - [Convert-number-to-Indian-currency-format-problem](./Problems/Convert-number-to-Indian-currency-format)  
-  Converts numeric values to Indian currency words.
+  Converts numeric values to Indian currency format.
 
 - [Minimizing-loss-problem](./Problems/Minimizing-loss-problem)  
   Finds the minimum financial loss from house prices over years.
